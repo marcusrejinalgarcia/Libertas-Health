@@ -1,0 +1,9 @@
+$header-height: 80px;
+header {
+    height: $header-height;
+    background-color:hsl(178, 82%, 44%);
+    .navbar-brand {
+        color: whitesmoke;
+        font-size: 2em;
+    }
+}

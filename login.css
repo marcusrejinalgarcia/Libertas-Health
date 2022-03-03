@@ -1,0 +1,47 @@
+header {
+  height: 80px;
+  background-color: #14ccc6;
+}
+header .navbar-brand {
+  color: whitesmoke;
+  font-size: 2em;
+}
+
+main {
+  height: calc(100vh - 80px);
+}
+main .card {
+  width: 420px;
+  height: 320px;
+}
+main .card .form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 360px;
+}
+main .card .form-input input {
+  max-width: 240px;
+}
+main .btn {
+  background: #0e8b87;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 1.5em;
+}
+main .btn:hover {
+  background: #12bab4;
+  color: white;
+}
+main #notifier {
+  position: absolute;
+  top: 66.66%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  color: red;
+}

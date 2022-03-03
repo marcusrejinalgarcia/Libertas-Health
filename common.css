@@ -1,0 +1,8 @@
+header {
+  height: 80px;
+  background-color: #14ccc6;
+}
+header .navbar-brand {
+  color: whitesmoke;
+  font-size: 2em;
+}

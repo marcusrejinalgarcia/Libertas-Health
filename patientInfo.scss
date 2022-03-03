@@ -1,0 +1,19 @@
+input.name {
+    flex: 1 1 240px;
+}
+
+div.info {
+    flex: 1 1 240px;
+}
+
+div.med-history {
+    // max-height: 140px;
+    width: fit-content;
+    div {
+        margin-right: 2em;
+    }
+}
+
+select {
+    width: 160px;
+}

@@ -1,0 +1,43 @@
+main {
+    height: calc(100vh - $header-height);
+
+    .card {
+        width: 420px;
+        height: 320px;
+        .form-input {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 360px;
+
+            input {
+                max-width: 240px;
+            }
+        }
+    }
+
+    .btn {
+        background: hsl(178, 82%, 30%);
+        color: white;
+        font-weight: bold;
+        border: 0;
+        border-radius: 1.5em;
+
+        &:hover {
+            background: hsl(178, 82%, 40%);
+            color: white;
+        }
+    }
+
+    #notifier {
+        position: absolute;
+        top: 66.66%;
+        left: 0;
+        right: 0;
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 100%; 
+        text-align: center;
+        color: red;
+    }
+}
