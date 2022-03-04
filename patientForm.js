@@ -2,7 +2,7 @@
 let greeting = document.getElementById("greeting");
 greeting.innerText = `Welcome, ${JSON.parse(localStorage.getItem("Username"))}!`;
 
-const storePatientInfo = (event) => {
+const storePatientInfo = () => {
     let patientInfo = {
         name: [
             document.getElementById("firstName").value,

@@ -14,7 +14,7 @@ function checkUsername() {
 
 function checkPassword() {
     let pWord = password.value.trim();
-    let pwRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8}$/;
+    let pwRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
     if (!pwRegex.test(pWord)) {
         notifier.innerText += 'Password must be at least 8 characters long, and contain at least 1 digit, 1 uppercase letter, and 1 lowercase letter.';
         return false;
