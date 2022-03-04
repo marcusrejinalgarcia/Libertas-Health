@@ -1,6 +1,5 @@
 let patientInfo = {};
 patientInfo = JSON.parse(localStorage.getItem("Patient Information"));
-console.table(patientInfo);
 
 let fullName = document.getElementById("name");
 fullName.innerText = patientInfo.name.join(' ');
